@@ -1,0 +1,76 @@
+@media (max-width: 576px){
+	body{
+		overflow-x: hidden;
+	}
+	.navbar{
+		padding: 20px;
+	}
+	
+	.info img{
+		position: absolute;
+		bottom: 0;
+		width: 95%;
+		margin: 0 auto;
+	}
+	.info h2{
+		font-size: 22px;
+	}
+	.info h1{
+		font-size: 32px;
+	}
+	.info h3{
+		font-size: 14px;
+	}
+	.info .my-info{
+		padding: 0 0;
+		position: absolute;
+		bottom: -5px;
+	}
+	.social{
+		margin-top: 0px;
+	}
+	.social ul li a{
+		font-size: 32px;
+	}
+	.common-heading {
+		text-align: center;
+	}
+	.about-me-section .info-button .btn-custom{
+		margin-bottom: 10px;
+		display: inline-block;
+	}
+	.hire-section .hire-button{
+		text-align: center;
+		margin-top: 30px;
+	}
+	.project-section .filter-button ul li{
+		font-size: 14px;
+		margin: 0 5px 20px 0;
+		padding: 10px;
+	}
+	.resume-section .experience{
+		margin-top: 30px;
+	}
+	.contact-section .contact-form .contact-input input{
+		width: 100%;
+	}
+}
+
+
+@media (max-width: 575.98px){
+	.info{
+		left: 50%;
+		transform: translate(-50%);
+	}
+	.project-section .filter-button ul li{
+		font-size: 12px;
+		margin: 0 5px 20px 0;
+		padding: 0px;
+	}
+	.hire-section h2{
+		font-size: 21px;
+	}
+	.hire-section .hire-button a{
+		font-size: 18px;
+	}
+}
